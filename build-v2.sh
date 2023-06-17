@@ -10,5 +10,5 @@ docker push pauloreloy/projeto1-dio-backend:1.0
 cd ../
 
 kubectl apply -f secrets.yaml
-kubectl apply -f projeto1-deploy-pods.yaml
+kubectl apply -f projeto1-deploy-pods-v2.yaml
 kubectl apply -f projeto1-deploy-services.yaml
